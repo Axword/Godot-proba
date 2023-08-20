@@ -1,0 +1,59 @@
+[gd_scene load_steps=2 format=3 uid="uid://2thswfwmqak3"]
+
+[ext_resource type="Script" path="res://MainMenu.gd" id="1_52hn6"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="MainMenu" type="Node2D" parent="."]
+position = Vector2(14, 46)
+script = ExtResource("1_52hn6")
+
+[node name="ColorRect" type="ColorRect" parent="MainMenu"]
+offset_left = -326.0
+offset_top = -214.0
+offset_right = 1227.0
+offset_bottom = 721.0
+metadata/_edit_use_anchors_ = true
+
+[node name="OptionsButton" type="Button" parent="MainMenu"]
+offset_left = 229.0
+offset_top = 210.0
+offset_right = 669.0
+offset_bottom = 393.0
+action_mode = 0
+text = "Options
+"
+metadata/_edit_use_anchors_ = true
+
+[node name="ExitButton" type="Button" parent="MainMenu"]
+offset_left = 230.0
+offset_top = 435.0
+offset_right = 670.0
+offset_bottom = 618.0
+text = "Exit
+"
+metadata/_edit_use_anchors_ = true
+
+[node name="StartGameButton" type="Button" parent="MainMenu"]
+offset_left = 224.0
+offset_top = -18.0
+offset_right = 664.0
+offset_bottom = 165.0
+text = "Start Game"
+metadata/_edit_use_anchors_ = true
+
+[node name="TextEdit" type="TextEdit" parent="MainMenu"]
+offset_left = 342.0
+offset_top = -185.0
+offset_right = 541.0
+offset_bottom = -147.0
+text = "Gra
+"
+placeholder_text = "Gra
+
+"
+metadata/_edit_use_anchors_ = true
+
+[connection signal="pressed" from="MainMenu/OptionsButton" to="MainMenu" method="_on_options_button_pressed"]
+[connection signal="pressed" from="MainMenu/ExitButton" to="MainMenu" method="_on_exit_button_pressed"]
+[connection signal="pressed" from="MainMenu/StartGameButton" to="MainMenu" method="_on_start_game_button_pressed"]
