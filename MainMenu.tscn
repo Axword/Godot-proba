@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=3 uid="uid://2thswfwmqak3"]
+[gd_scene load_steps=2 format=3 uid="uid://0mdqlyjfw1r"]
 
 [ext_resource type="Script" path="res://MainMenu.gd" id="1_52hn6"]
 
@@ -16,29 +16,29 @@ offset_bottom = 721.0
 metadata/_edit_use_anchors_ = true
 
 [node name="OptionsButton" type="Button" parent="MainMenu"]
-offset_left = 229.0
-offset_top = 210.0
-offset_right = 669.0
-offset_bottom = 393.0
+offset_left = 349.0
+offset_top = 186.0
+offset_right = 789.0
+offset_bottom = 369.0
 action_mode = 0
 text = "Options
 "
 metadata/_edit_use_anchors_ = true
 
 [node name="ExitButton" type="Button" parent="MainMenu"]
-offset_left = 230.0
-offset_top = 435.0
-offset_right = 670.0
-offset_bottom = 618.0
+offset_left = 350.0
+offset_top = 411.0
+offset_right = 790.0
+offset_bottom = 594.0
 text = "Exit
 "
 metadata/_edit_use_anchors_ = true
 
 [node name="StartGameButton" type="Button" parent="MainMenu"]
-offset_left = 224.0
-offset_top = -18.0
-offset_right = 664.0
-offset_bottom = 165.0
+offset_left = 344.0
+offset_top = -42.0
+offset_right = 784.0
+offset_bottom = 141.0
 text = "Start Game"
 metadata/_edit_use_anchors_ = true
 

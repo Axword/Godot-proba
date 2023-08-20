@@ -16,29 +16,29 @@ offset_bottom = 721.0
 metadata/_edit_use_anchors_ = true
 
 [node name="OptionsButton2" type="Button" parent="MainMenu"]
-offset_left = 229.0
-offset_top = 210.0
-offset_right = 669.0
-offset_bottom = 393.0
+offset_left = 352.0
+offset_top = 185.0
+offset_right = 792.0
+offset_bottom = 368.0
 action_mode = 0
 text = "Opcja 2
 "
 metadata/_edit_use_anchors_ = true
 
 [node name="BackButton" type="Button" parent="MainMenu"]
-offset_left = 230.0
-offset_top = 435.0
-offset_right = 670.0
-offset_bottom = 618.0
+offset_left = 353.0
+offset_top = 410.0
+offset_right = 793.0
+offset_bottom = 593.0
 text = "Powrót do menu
 "
 metadata/_edit_use_anchors_ = true
 
 [node name="OptionsButton1" type="Button" parent="MainMenu"]
-offset_left = 224.0
-offset_top = -18.0
-offset_right = 664.0
-offset_bottom = 165.0
+offset_left = 347.0
+offset_top = -43.0
+offset_right = 787.0
+offset_bottom = 140.0
 text = "Opcja 1"
 metadata/_edit_use_anchors_ = true
 
